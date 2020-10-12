@@ -8,6 +8,9 @@ import org.testng.annotations.Test;
 public class Scenario {
 
 	WebDriver driver;
+	
+	driver.manage().window().maximize();
+
 
 	@Test
 	public void openApp() {
